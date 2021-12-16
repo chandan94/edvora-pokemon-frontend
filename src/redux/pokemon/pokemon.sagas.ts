@@ -12,7 +12,7 @@ export function* fetchAllPokemon(): Generator<any, any, any>{
     try {
         const page = yield select(selectActivePage);
         const search = yield select(selectPokemonSearch)
-        const getAllPokemonResp = yield axiosGetCall(process.env.REACT_APP_BACKEND_URL + pokeConstants.POKEMON_BASE_URL, search, page);
+        const getAllPokemonResp = yield axiosGetCall(pokeConstants.POKEMON_BASE_URL, search, page);
         const { count , results } = getAllPokemonResp;
         yield put(setTotalPageCount(count));
         yield put(fetchAllPokemonSuccess(results));
