@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/edvora-pokemon-frontend/static/css/main.21d1272e.chunk.css",
-    "main.js": "/edvora-pokemon-frontend/static/js/main.0ed731eb.chunk.js",
-    "main.js.map": "/edvora-pokemon-frontend/static/js/main.0ed731eb.chunk.js.map",
+    "main.js": "/edvora-pokemon-frontend/static/js/main.33c1c6fb.chunk.js",
+    "main.js.map": "/edvora-pokemon-frontend/static/js/main.33c1c6fb.chunk.js.map",
     "runtime-main.js": "/edvora-pokemon-frontend/static/js/runtime-main.65efa6e3.js",
     "runtime-main.js.map": "/edvora-pokemon-frontend/static/js/runtime-main.65efa6e3.js.map",
     "static/css/2.0a9ec390.chunk.css": "/edvora-pokemon-frontend/static/css/2.0a9ec390.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.1c09f1bb.chunk.js",
     "static/css/main.21d1272e.chunk.css",
-    "static/js/main.0ed731eb.chunk.js"
+    "static/js/main.33c1c6fb.chunk.js"
   ]
 }
