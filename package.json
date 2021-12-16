@@ -38,7 +38,7 @@
     "poke-client": "cd ../poke-client && npm start && cd ..",
     "dev": "npm run poke-client",
     "predeploy": "npm run build",
-    "deploy": "REACT_APP_BACKEND_URL=https://edvora-pokemon-backend.herokuapp.com gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
