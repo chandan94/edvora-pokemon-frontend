@@ -21,7 +21,7 @@ const PokeCard = ({ pokemon, showToast, currentUser, showFavAddBtn }: PokeCardPr
     const srcUrl = `${POKEMON_IMG_URL}${id}.png`;
 
     const handleAddFavPokemon = () => {
-        axios.post(FAV_POKE_URL,
+        axios.post(process.env.REACT_APP_BACKEND_URL + FAV_POKE_URL,
             {
             pokemonId: id,
             name,

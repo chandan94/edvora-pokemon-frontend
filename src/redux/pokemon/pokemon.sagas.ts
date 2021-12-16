@@ -12,7 +12,7 @@ export function* fetchAllPokemon(): Generator<any, any, any>{
     try {
         const page = yield select(selectActivePage);
         const search = yield select(selectPokemonSearch)
-        const getAllPokemonResp = yield axiosGetCall(pokeConstants.POKEMON_BASE_URL, search, page);
+        const getAllPokemonResp = yield axiosGetCall(process.env.REACT_APP_BACKEND_URL + pokeConstants.POKEMON_BASE_URL, search, page);
         const { count , results } = getAllPokemonResp;
         yield put(setTotalPageCount(count));
         yield put(fetchAllPokemonSuccess(results));
@@ -29,7 +29,7 @@ export function* fetchFavPokemon(): Generator<any, any, any>{
     try {
         const { FAV_POKE_URL, GET_FAV_LIST } = pokeConstants;
         const curerntUser = yield select(selectCurrentUser);
-        const favPokemon = yield axiosPostCall(FAV_POKE_URL + GET_FAV_LIST, "", {
+        const favPokemon = yield axiosPostCall(process.env.REACT_APP_BACKEND_URL + FAV_POKE_URL + GET_FAV_LIST, "", {
             user: curerntUser
         });
         // const { count , results } = getAllPokemonResp;

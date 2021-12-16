@@ -44,7 +44,7 @@ const LogIn = ({ setCurrentUser, showToast }: any) => {
                 validationSchema={LoginSchema}
                 onSubmit={values => {
                     const { USERS_URL, LOG_IN } = pokeConstants;
-                    axios.post<LogInResponse, any, any>(USERS_URL + LOG_IN, {
+                    axios.post<LogInResponse, any, any>(process.env.REACT_APP_BACKEND_URL + USERS_URL + LOG_IN, {
                         email: values.email,
                         password: values.password,
                     }).then(async resp => {

@@ -52,7 +52,7 @@ const SignUp = ({showToast} :SignUpProps) => {
                         password: hashdPwd,
                     };
                     const { USERS_URL , SIGN_UP } = pokeConstants;
-                    axios.post<SignUpResponse, any, any>(USERS_URL + SIGN_UP, body)
+                    axios.post<SignUpResponse, any, any>(process.env.REACT_APP_BACKEND_URL + USERS_URL + SIGN_UP, body)
                         .then(resp => {
                             const toast = {
                                 show: true,
