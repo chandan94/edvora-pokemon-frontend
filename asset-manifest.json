@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/edvora-pokemon-frontend/static/css/main.21d1272e.chunk.css",
+    "main.js": "/edvora-pokemon-frontend/static/js/main.4501f34a.chunk.js",
+    "main.js.map": "/edvora-pokemon-frontend/static/js/main.4501f34a.chunk.js.map",
+    "runtime-main.js": "/edvora-pokemon-frontend/static/js/runtime-main.65efa6e3.js",
+    "runtime-main.js.map": "/edvora-pokemon-frontend/static/js/runtime-main.65efa6e3.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/edvora-pokemon-frontend/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.1c09f1bb.chunk.js": "/edvora-pokemon-frontend/static/js/2.1c09f1bb.chunk.js",
+    "static/js/2.1c09f1bb.chunk.js.map": "/edvora-pokemon-frontend/static/js/2.1c09f1bb.chunk.js.map",
+    "static/js/3.41035821.chunk.js": "/edvora-pokemon-frontend/static/js/3.41035821.chunk.js",
+    "static/js/3.41035821.chunk.js.map": "/edvora-pokemon-frontend/static/js/3.41035821.chunk.js.map",
+    "index.html": "/edvora-pokemon-frontend/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/edvora-pokemon-frontend/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.21d1272e.chunk.css.map": "/edvora-pokemon-frontend/static/css/main.21d1272e.chunk.css.map",
+    "static/js/2.1c09f1bb.chunk.js.LICENSE.txt": "/edvora-pokemon-frontend/static/js/2.1c09f1bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65efa6e3.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.1c09f1bb.chunk.js",
+    "static/css/main.21d1272e.chunk.css",
+    "static/js/main.4501f34a.chunk.js"
+  ]
+}
