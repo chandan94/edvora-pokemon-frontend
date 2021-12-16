@@ -66,7 +66,9 @@ const Header = ({ currUser, setSearch, getAllPokemon } : HeaderProps ) => {
 
     const handleBrandClick = () => {
         navigate("/");
-        getAllPokemon?.();
+        if (currUser && currUser.length > 0) {
+            getAllPokemon?.();
+        }
     }
 
     const handleNavSelect = (selectedKey: string | null) => navigate(selectedKey ? selectedKey : "", { replace: true });

@@ -19,6 +19,7 @@ const App = ({ currentUser }: AppProps) => {
       <Header />
       <Routes>
         <Route element={currentUser && currentUser.length > 0? <HomePage /> : <Navigate replace to="/sign-in-up" />} path="/" />
+        <Route element={currentUser && currentUser.length > 0? <HomePage /> : <Navigate replace to="/sign-in-up" />} path="/edvora-pokemon-frontend" />
         <Route element={!currentUser? <SignInUp /> : <Navigate replace to="/" /> } path="/sign-in-up" />
         <Route element={currentUser && currentUser.length > 0? <FavPage /> : <Navigate replace to="/sign-in-up" /> } path="/favorite-pokemons" />
       </Routes>
