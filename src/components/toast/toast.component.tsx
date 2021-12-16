@@ -12,7 +12,7 @@ const ToastNotification = ({ show, showToast, msg, headerMsg, variant }: ToastPr
     return (
         <Row>
             <Col xs={6}>
-                <ToastContainer position="top-center" className="p-3">
+                <ToastContainer position="middle-center" className="p-3">
                     <Toast onClose={() => showToast ? showToast({ show : false }) : null}
                         bg={variant} show={show} delay={3000} autohide>
                         <Toast.Header>
